@@ -7,17 +7,17 @@ A simple tool to create and play point and click games.
 * World/Game state, different variables which can be used as conditions
 * One resolution for the whole game
 * Scenes which have one background image
-** Clickable areas per scene
-*** On mouse hover the mouse icon may change
-*** They can forward to other scenes, they may change the world state
-**** The action can be different depending on the world state
-*** They can be enabled/disabled automatically depending on the world state
-** Images may be drawn on a Scene
-*** They can be visible/invisible depending on the world state
+  * Clickable areas per scene
+    * On mouse hover the mouse icon may change
+    * They can forward to other scenes, they may change the world state
+      * The action can be different depending on the world state
+    * They can be enabled/disabled automatically depending on the world state
+  * Images may be drawn on a Scene
+    * They can be visible/invisible depending on the world state
 * There is an inventory
-** The inventory behaves as list of "items"
-** Items may be attatched to the cursor when "picked up" (from inventory)
-** Clickable areas can have items attatched to the cursor as condition
+  * The inventory behaves as list of "items"
+  * Items may be attatched to the cursor when "picked up" (from inventory)
+  * Clickable areas can have items attatched to the cursor as condition
 * Transition effects
 
 ### Not planned yet:
